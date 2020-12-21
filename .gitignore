@@ -1,0 +1,10 @@
+cocos2d/
+proj.win32/.vs/
+proj.win32/engine/
+proj.win32/bin/
+proj.win32/lib/
+proj.win32/CMakeFiles/
+proj.win32/Debug/
+proj.win32/Win32/Debug/
+proj.win32/spaceinvader.dir/
+proj.win32/bin/Win32/
