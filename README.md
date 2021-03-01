@@ -73,6 +73,8 @@ issue
 ==> 
 Reason behind this error is it only works in device having A7+ chip, simulator will not work for this.
 
+
+
 xcode 12.4
 i was encontered error 
 clang: error: no such file or directory: '/usr/lib/libz.dylib'
