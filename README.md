@@ -61,3 +61,20 @@ How to start a new game
     $ cocos run --proj-dir .. -p [mac|windows|android|linux|ios]
 
 You can also create a Lua project with `-l lua`.
+
+How to compile at macos high serria
+___________________________________
+
+proj.ios_mac$ cmake .. -GXcode -DCMAKE_SYSTEM_NAME=iOS -DCMAKE_OSX_SYSROOT=iphoneos
+
+issue 
+1) 'QuartzCore/CAMetalLayer.h' file not found
+#import <QuartzCore/CAMetalLayer.h>
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+==> 
+Reason behind this error is it only works in device having A7+ chip, simulator will not work for this.
+
+
+
+
