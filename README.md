@@ -4,9 +4,7 @@ cocos2d-x-4.0 + cocosStuid 3.1
 Build Requirements
 ------------------
 
-* Mac OS X 10.7+, Xcode 8+
-* or Ubuntu 14.04+, CMake 3.1+
-* or Windows 7+, VS 2015
+* Mac OS X 12.4 
 * Python 2.7.5+(NOT Python 3)
 * NDK r16+ is required to build Android games
 * Android Studio 3.0.0+ to build Android games(tested with 3.0.0)
@@ -14,7 +12,7 @@ Build Requirements
 
 Runtime Requirements
 --------------------
-  * iOS 8.0+ for iPhone / iPad games
+  * iOS 12.4+ for iPhone / iPad games
   * Android 3.0.0+ for Android
   * OS X v10.9+ for Mac games
   * Windows 7+ for Win games
